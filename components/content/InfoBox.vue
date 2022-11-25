@@ -6,21 +6,36 @@ const props = defineProps(["type"]);
 </script>
 <template>
   <!-- Access `type` prop in Dynamic class  -->
-  <div class="info-box bg-yellow-100 not-prose" :class="[type]">
-    <!-- Conditionally render icons based on prop -->
-    <InformationCircleIcon v-if="type == 'warning'" class="w-10 h-10" />
-    <InformationCircleIcon v-else-if="type == 'error'" class="w-10 h-10" />
-    <InformationCircleIcon v-else class="w-10 h-10" />
+  <div class="info-box not-prose" :class="[type]">
     <details>
-      <summary>
-        <!-- Unamed Slot to render component content -->
-        <slot />
+      <summary class="">
+        <InformationCircleIcon class="w-8 h-8"/>
+        <slot/>
       </summary>
       <div class="details pt-2">
         <!-- Named markdown component to render rich-text -->
+        
         <Markdown :use="$slots.details" unwrap="p"></Markdown>
       </div>
     </details>
   </div>
 </template>
-<style scoped> /* ... */ </style>
+<style scoped> 
+
+summary {
+  @apply inline-flex items-center gap-x-3
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+.info-box {
+  @apply p-5 rounded-lg
+}
+
+.warning {
+  @apply bg-sky-100
+}
+
+</style>

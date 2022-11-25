@@ -17,18 +17,17 @@ Personally, I interested in software development. However, I'd like to continue 
 
 Since the publication of National Strategic of Artificial Intelligence in Indonesia, my interest in AI has rapidly grown. Indonesia has many potential areas to implement AI, which healthcare is one of it. Can you imagine billions of people can be saved by using AI? Early diagnose system made by AI can be use as the physician's consideration to determine the best medication!
 
-From this reason, I motivated to contunie my study abroad! 
+From this reason, I motivated to continue my study abroad! 
 
 ## Let's work together!
 
 Do you want to collaborate? Or do you have any cool project idea to build?
 
 Feel free to contact me!
-<!-- 
-::InfoBox{type="error"}
-Here's a handy bit of information for you!
+
+::InfoBox{type='warning'} 
+Visit and connect with me through my social media!
 
 #details
-This will be rendered inside the `description` slot. _It's important_ to see how this **works**.
-\[More information can be found here\](#)
-:: -->
+**[Instagram](https://instagram.com/erlanggagatum)**, **[LinkedIn](https://linkedin.com/in/erlanggagatum)**, **[GitHub](https://github.com/erlanggagatum)**, **[Twitter](https://twitter.com/erlnggagatum)**
+::
