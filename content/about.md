@@ -3,7 +3,7 @@
 # About
 _A brief intro about Gatum Erlangga_
 
-![About]('img/intro-meme.jpg')
+![About](img/intro-meme.jpg)
 
 Hi everyone :)
 
